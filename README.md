@@ -1,2 +1,12 @@
 # dsa-cpp
-DSA practice in C++ | Striver's A2Z sheet
+# DSA in C++
+
+Solving DSA problems in C++ following Striver's A2Z sheet.
+
+## Topics
+- Arrays
+- Strings
+- Linked Lists
+- Stacks & Queues
+- Trees
+- Graphs
