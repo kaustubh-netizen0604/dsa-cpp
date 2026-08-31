@@ -14,8 +14,16 @@ vector<int> twoSum(vector<int>& nums, int target) {
 }
 
 int main() {
-    vector<int> nums = {2, 7, 11, 15};
-    int target = 9;
+    int n;
+    cout << "Enter the size : ";
+    cin >> n;
+    vector<int> nums(n);
+    for (int i = 0; i < n; i++) {
+        cin >> nums[i];
+    }
+    int target;
+    cout << "Enter the target : ";
+    cin >> target;
     vector<int> result = twoSum(nums, target);
     cout << result[0] << " " << result[1] << endl;
     return 0;
