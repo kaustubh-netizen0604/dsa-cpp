@@ -26,7 +26,7 @@ int main(){
     }
     cout<<"maximum sum of sub array is : ";
    cout<< s.maxSubarray(nums)<<endl;
-    
+    return 0;
 }
 
 
